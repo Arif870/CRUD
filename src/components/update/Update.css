@@ -1,0 +1,20 @@
+.update {
+  text-align: center;
+}
+
+.update form input {
+  width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  background-color: rgba(172, 206, 231, 0.513);
+  border-radius: 4px;
+  display: block;
+}
+.update form input[type="submit"] {
+  background-color: purple;
+  width: auto;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}

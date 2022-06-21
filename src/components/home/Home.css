@@ -1,0 +1,84 @@
+.home {
+  background-image: url("https://img.freepik.com/free-photo/dark-wall-empty-room-with-plants-floor-3d-rendering_41470-3847.jpg?t=st=1655144268~exp=1655144868~hmac=9771afdcbfd945e9f73c488c0a44952b23efd4fdb60b882a67976b37eba7417a&w=1800");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.home .crud {
+  width: 1200px;
+  border: 1px solid lightblue;
+  background-color: rgba(240, 248, 255, 0.144);
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 10px 9px 18px rgb(41 48 64);
+  color: white;
+  font-family: poppins;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.new-user-sec {
+  background-color: rgb(72, 163, 243);
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home .crud input[type="text"] {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.home .crud input[type="submit"] {
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.home .crud h1 {
+  font-weight: 400;
+}
+table {
+  width: 100%;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+.details p {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.details p.edit {
+  background-color: rgb(22, 189, 222);
+}
+.details p.update {
+  background-color: rgb(235, 189, 21);
+}
+.details p.delete {
+  background-color: crimson;
+}
+tbody img {
+  width: 50px;
+}
